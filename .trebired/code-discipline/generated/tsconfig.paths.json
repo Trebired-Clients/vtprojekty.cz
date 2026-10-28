@@ -1,0 +1,339 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "#07d60xq1klv5": [
+        "../../frontend/containers/tokens.ts"
+      ],
+      "#0g2i79oj4f2f": [
+        "../../../src/frontend/components/chrome/site/footer.tsx"
+      ],
+      "#0td00cokdrjj": [
+        "../../../src/frontend/components/venue/photos.tsx"
+      ],
+      "#13oi0xotsb81": [
+        "../../../src/frontend/pages/ubytovani/liskovec/index.tsx"
+      ],
+      "#15rqh0yv6uiz": [
+        "../../frontend/config.ts"
+      ],
+      "#1s8tui3sjhbq": [
+        "../../../src/frontend/pages/home/hero.tsx"
+      ],
+      "#24fhoofgbt4l": [
+        "../../../src/frontend/pages/ubytovani/liskovec/i18n/cs.ts"
+      ],
+      "#2qvqc6i54ha1": [
+        "../../frontend/components/shell.ts"
+      ],
+      "#35wbaq9l86u5": [
+        "../../frontend/components/overlays.ts"
+      ],
+      "#3hbfi4zslr0g": [
+        "../../../src/frontend/pages/ubytovani/strilky/i18n/en.ts"
+      ],
+      "#3rh8lmpogs8j": [
+        "../../../src/frontend/pages/gastronomie/index.tsx"
+      ],
+      "#4cvygamqsk0k": [
+        "../../../src/frontend/pages/gastronomie/i18n/en.ts"
+      ],
+      "#4gopmqmj5bqi": [
+        "../../../src/frontend/pages/kontakt/i18n/cs.ts"
+      ],
+      "#4yu97g4w9ar6": [
+        "../../../src/frontend/components/venue/cards.tsx"
+      ],
+      "#530nr4f7w7yk": [
+        "../../frontend/components/media.ts"
+      ],
+      "#5bpm651nyzhm": [
+        "../../../src/frontend/pages/home/photo_mark.tsx"
+      ],
+      "#5oiin5zmm2bm": [
+        "../../../src/frontend/pages/home/index.tsx"
+      ],
+      "#63vvyzoipjkr": [
+        "../../../src/frontend/js/index.client.tsx"
+      ],
+      "#6oglnoe7t80q": [
+        "../../../src/frontend/components/venue/features.tsx"
+      ],
+      "#7d79eh6i9cjc": [
+        "../../../src/frontend/shared/pages.tsx"
+      ],
+      "#7kva3rmwg62y": [
+        "../../../src/frontend/pages/error/index.tsx"
+      ],
+      "#7zylgfpcwixo": [
+        "../../frontend/links.ts"
+      ],
+      "#8tzkk8mtgiwb": [
+        "../../../src/frontend/pages/gastronomie/kavarna/index.tsx"
+      ],
+      "#8yo28u1e0ikg": [
+        "../../../src/frontend/pages/gastronomie/akce/i18n/cs.ts"
+      ],
+      "#9fpvlbm2a8n2": [
+        "../../../src/frontend/components/chrome/a11y_switcher.tsx"
+      ],
+      "#9qflk6yl6yu1": [
+        "../../../src/frontend/components/venue/map.tsx"
+      ],
+      "#9u87xhrsyo6s": [
+        "../../../src/frontend/pages/gastronomie/kavarna/i18n/cs.ts"
+      ],
+      "#a4kp412tp8vo": [
+        "../../../src/frontend/pages/ubytovani/index.tsx"
+      ],
+      "#ad3wd8htjxfe": [
+        "../../../src/frontend/pages/home/i18n/cs.ts"
+      ],
+      "#ak73aa6zlffi": [
+        "../../../src/frontend/shared/lang/store.ts"
+      ],
+      "#arcanpqwwt1c": [
+        "../../../src/frontend/pages/home/i18n/en.ts"
+      ],
+      "#axxeljevodqa": [
+        "../../../src/frontend/shared/lang/use.ts"
+      ],
+      "#b5m7pxwit2xu": [
+        "../../../src/bin/shared/logger.ts"
+      ],
+      "#bdl9lecavbnm": [
+        "../../../src/frontend/components/chrome/lang_switcher.tsx"
+      ],
+      "#bf85fgolgu7w": [
+        "../../../src/frontend/shared/utils/routes.ts"
+      ],
+      "#bfsugei0r37r": [
+        "../../frontend/components/surfaces.ts"
+      ],
+      "#bqh5ubckgcrf": [
+        "../../../src/frontend/pages/gastronomie/restaurace/i18n/en.ts"
+      ],
+      "#cdgyii0g3afh": [
+        "../../../src/frontend/pages/home/about.tsx"
+      ],
+      "#cq3iwgvcx9kn": [
+        "../../../src/frontend/shared/paths.ts"
+      ],
+      "#d0ydn4o0duzw": [
+        "../../../src/frontend/shared/route_path.ts"
+      ],
+      "#d6z2se7xlizj": [
+        "../../frontend/palette.ts"
+      ],
+      "#dl8cx08y33av": [
+        "../../../src/frontend/pages/home/contact.tsx"
+      ],
+      "#dy4uhcniguu0": [
+        "../../frontend/theme.ts"
+      ],
+      "#e0jby42napkl": [
+        "../../../src/frontend/ssr/entry.tsx"
+      ],
+      "#e69sd8eyqt18": [
+        "../../../src/frontend/components/chrome/translator.ts"
+      ],
+      "#edcmy9zoloje": [
+        "../../../src/frontend/components/venue/hero.tsx"
+      ],
+      "#erqloku2tvbz": [
+        "../../../src/frontend/components/chrome/utils.ts"
+      ],
+      "#f3lfkiy4d4cg": [
+        "../../../src/frontend/shared/chrome_roots.tsx"
+      ],
+      "#f81x7aq2ru7e": [
+        "../../../src/frontend/components/venue/i18n/en.ts"
+      ],
+      "#fmnpkv94i3if": [
+        "../../frontend/containers.ts"
+      ],
+      "#fotbpqtodkl4": [
+        "../../i18n/config.ts"
+      ],
+      "#fr59944xid00": [
+        "../../../src/frontend/pages/ubytovani/i18n/cs.ts"
+      ],
+      "#fxxnjcq1k0zt": [
+        "../../frontend/components/index.ts"
+      ],
+      "#g4dyw91kl8un": [
+        "../../../src/bin/frontend/site_build.ts"
+      ],
+      "#g4n2icr2umod": [
+        "../../frontend/containers/layout.ts"
+      ],
+      "#g8tlrh6voct5": [
+        "../../../src/frontend/shared/utils/route_meta.ts"
+      ],
+      "#gl9f6qpqpz4t": [
+        "../../../src/frontend/pages/ubytovani/i18n/en.ts"
+      ],
+      "#gq7o2tw897b8": [
+        "../../../src/frontend/pages/volny-cas/koupaliste/i18n/en.ts"
+      ],
+      "#grstchplevya": [
+        "../../../src/frontend/pages/kontakt/i18n/en.ts"
+      ],
+      "#gvgijtrwum8c": [
+        "../../../src/bin/frontend/seo.ts"
+      ],
+      "#h3ao78qqe8d0": [
+        "../../../src/frontend/shared/reveal.ts"
+      ],
+      "#hce8iexhw4hy": [
+        "../../../src/frontend/pages/home/areas.tsx"
+      ],
+      "#hh4dk2772tg6": [
+        "../../../src/types/product.d.ts"
+      ],
+      "#hl2ebl0aq523": [
+        "../../bundler/config.ts"
+      ],
+      "#i1d3qtd7p2fd": [
+        "../../startup/config.ts"
+      ],
+      "#j1pa9vensvqg": [
+        "../../../src/frontend/components/chrome/mark.tsx"
+      ],
+      "#j4sosp7qcyh1": [
+        "../../../src/frontend/pages/ubytovani/liskovec/i18n/en.ts"
+      ],
+      "#jo9yruirvnvz": [
+        "../../../src/frontend/shared/identity.ts"
+      ],
+      "#jzad5ffrzba4": [
+        "../../frontend/language.ts"
+      ],
+      "#kdozevuwq4dp": [
+        "../../frontend/containers/chrome.ts"
+      ],
+      "#kmkcaj8s0ujc": [
+        "../../../src/frontend/components/chrome/i18n/cs.ts"
+      ],
+      "#kv0ewaos2or5": [
+        "../../../src/frontend/pages/ubytovani/strilky/i18n/cs.ts"
+      ],
+      "#kx40ug0ri3md": [
+        "../../../src/frontend/components/chrome/i18n/en.ts"
+      ],
+      "#l4ala9zi4nsr": [
+        "../../frontend/components/primitives.ts"
+      ],
+      "#lbb70nt71n6c": [
+        "../../../src/frontend/pages/home/events.tsx"
+      ],
+      "#mguk25yn9zv9": [
+        "../../../src/frontend/pages/ochrana-osobnich-udaju/index.tsx"
+      ],
+      "#mpnjqbk0c3a2": [
+        "../../../src/frontend/pages/ochrana-osobnich-udaju/i18n/cs.ts"
+      ],
+      "#mudb9d0hwtsa": [
+        "../../../src/frontend/shared/runtime/i18n/lang.ts"
+      ],
+      "#nz90z6ktvs5o": [
+        "../../../src/bin/dev.ts"
+      ],
+      "#oa0myik0rs7t": [
+        "../../../src/frontend/pages/volny-cas/koupaliste/index.tsx"
+      ],
+      "#oo9u6qyq0x68": [
+        "../../../src/frontend/pages/kontakt/index.tsx"
+      ],
+      "#osaxn9t9sfel": [
+        "../../../src/frontend/components/chrome/site/i18n/en.ts"
+      ],
+      "#p7nxp3j7haa2": [
+        "../../../src/frontend/pages/gastronomie/akce/index.tsx"
+      ],
+      "#ps87jjk5rusu": [
+        "../../../src/frontend/shared/lang/policy.ts"
+      ],
+      "#q01pynw1xxee": [
+        "../../../src/frontend/pages/ubytovani/strilky/index.tsx"
+      ],
+      "#q45jtbapk8jq": [
+        "../../../src/frontend/pages/gastronomie/restaurace/i18n/cs.ts"
+      ],
+      "#q6aoqnymfxof": [
+        "../../../src/frontend/pages/gastronomie/restaurace/index.tsx"
+      ],
+      "#q73gv15pq5ku": [
+        "../../../src/frontend/pages/gastronomie/i18n/cs.ts"
+      ],
+      "#q9tm1elly4bo": [
+        "../../../src/bin/frontend/options.ts"
+      ],
+      "#r8zegqbg5t3p": [
+        "../../seo/config.ts"
+      ],
+      "#rhu0pjbd5swd": [
+        "../../../src/frontend/components/venue/crumbs.tsx"
+      ],
+      "#rwjrieklj5xw": [
+        "../../../src/bin/frontend/build.ts"
+      ],
+      "#s1ftslq0qois": [
+        "../../../src/frontend/components/chrome/header.tsx"
+      ],
+      "#tah3qqsbbce9": [
+        "../../../src/frontend/pages/ochrana-osobnich-udaju/i18n/en.ts"
+      ],
+      "#tp29ips7zqln": [
+        "../../../src/frontend/components/venue/booking.tsx"
+      ],
+      "#uhqryq7zyglm": [
+        "../../../src/bin/frontend/render_worker.ts"
+      ],
+      "#uq0kjx80pwca": [
+        "../../../src/frontend/components/sections/band.tsx"
+      ],
+      "#utrdvryu8exv": [
+        "../../../src/frontend/components/venue/i18n/cs.ts"
+      ],
+      "#vfp1yikgkje5": [
+        "../../../src/frontend/components/chrome/site/translator.ts"
+      ],
+      "#w5lat17een7j": [
+        "../../frontend/typography.ts"
+      ],
+      "#w6hhod5b9mnd": [
+        "../../../src/frontend/pages/gastronomie/akce/i18n/en.ts"
+      ],
+      "#wrhimt0qsro8": [
+        "../../../src/frontend/pages/volny-cas/koupaliste/i18n/cs.ts"
+      ],
+      "#x3l2x5dbpq12": [
+        "../../frontend/tokens.ts"
+      ],
+      "#xhgpxhmwsbpc": [
+        "../../../src/frontend/shared/venues.ts"
+      ],
+      "#xvdklpj97iuq": [
+        "../../frontend/systems.ts"
+      ],
+      "#y9t5xduca99d": [
+        "../../frontend/components/typography.ts"
+      ],
+      "#yaqyk58wth57": [
+        "../../../src/bin/frontend/ssr.ts"
+      ],
+      "#yh6sogl7zga2": [
+        "../../../src/frontend/components/chrome/site/i18n/cs.ts"
+      ],
+      "#z58gbq0caaoc": [
+        "../../frontend/containers/pages.ts"
+      ],
+      "#znghu2wgjnf0": [
+        "../../../src/frontend/components/venue/facts.tsx"
+      ],
+      "#zy9lcx6otndv": [
+        "../../../src/frontend/pages/gastronomie/kavarna/i18n/en.ts"
+      ]
+    }
+  }
+}

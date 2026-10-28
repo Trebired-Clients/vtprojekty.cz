@@ -1,0 +1,104 @@
+import type { FrontendPrimitiveComponentsConfig } from "@trebired/frontend/config";
+
+import { brand, semantic, ui } from "./../tokens";
+
+export const primitives = {
+  button: {
+    root: {
+      border: "1px solid transparent",
+      fontSize: "0.9rem",
+      fontWeight: "700",
+      gap: "var(--space-xs)",
+      height: "2.75rem",
+      padding: "0 1.2rem",
+      radius: ui.controlRadius,
+      width: "fit-content",
+      transition: "color var(--tbf-tone-change), background-color 0.3s ease, border-color 0.3s ease",
+      whiteSpace: "nowrap",
+    },
+    sizes: {
+      lg: { fontSize: "0.9rem", height: "3rem", px: "1.75rem" },
+      md: { fontSize: "0.9rem", height: "2.75rem", px: "1.2rem" },
+      sm: { fontSize: "0.875rem", height: "2.45rem", px: "1.1rem" },
+    },
+    slots: {
+      icon: { radius: ui.iconControlRadius },
+    },
+    variants: {
+      ghost: {
+        bg: "transparent",
+        border: "transparent",
+        state: {
+          hover: {
+            bg: semantic.surface2,
+            border: "transparent",
+          },
+        },
+      },
+      primary: {
+        bg: brand.ink,
+        border: "transparent",
+        color: brand.paper,
+        state: {
+          hover: {
+            bg: brand.deep,
+            border: "transparent",
+            color: brand.paper,
+          },
+        },
+      },
+      secondary: {
+        bg: "transparent",
+        border: brand.taupe,
+        state: {
+          hover: {
+            bg: "color-mix(in srgb, currentColor 6%, transparent)",
+          },
+        },
+      },
+    },
+  },
+  choice: {
+    checked: { border: "color-mix(in srgb, currentColor 24%, transparent)" },
+  },
+  input: {
+    root: {
+      bg: "transparent",
+      border: "1px solid color-mix(in srgb, currentColor 14%, transparent)",
+    },
+  },
+  marquee: {
+    item: { gap: "var(--space-md)" },
+    root: {
+      bg: semantic.textColor,
+      border: "1px",
+      color: semantic.backgroundPage,
+      py: "1.1rem",
+    },
+    separator: { fontSize: "1.35em", opacity: "0.5" },
+  },
+  pill: {
+    root: {
+      bg: "transparent",
+      fontSize: "0.9375rem",
+      padding: "0.45rem 0.9rem",
+      radius: ui.controlRadius,
+    },
+  },
+  tabs: {
+    root: { radius: ui.controlRadius },
+  },
+  textLink: {
+    root: {
+      decorationColor: brand.taupe,
+      decorationLine: "none",
+      decorationThickness: "0.09em",
+      decorationUnderlineOffset: "0.16em",
+      fontWeight: "500",
+      underlineHeight: "0px",
+    },
+    state: {
+      hover: { decorationColor: brand.brown, decorationLine: "underline" },
+    },
+  },
+} satisfies FrontendPrimitiveComponentsConfig;
