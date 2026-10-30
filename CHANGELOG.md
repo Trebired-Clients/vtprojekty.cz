@@ -4,6 +4,10 @@ All notable changes to `vtprojekty-cz` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 1.0.4
+
+- Updated `@trebired/frontend` to 29.6.0 and `@trebired/bundler` to 5.19.0. Pages preload only the fonts their first screen uses, Manrope 400 and 700 and Urbanist 800, instead of every declared weight, so a first visit fetches fewer font files up front and the browser no longer reports unused preloads.
+
 ## 1.0.3
 
 - Updated `@trebired/frontend` to 29.5.2. A removed frame is logged as one short line, such as `Removed tbf-unverified iframe#id "Title"`, instead of the whole element.
