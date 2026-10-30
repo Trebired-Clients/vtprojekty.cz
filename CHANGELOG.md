@@ -4,6 +4,10 @@ All notable changes to `vtprojekty-cz` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 1.0.1
+
+- Updated `@trebired/frontend` to 29.5.0. A frame the site did not declare, such as one a script adds to the page after it loads, is removed before it shows and reported in the browser console. The lunch menu and the maps carry the declaration and load as before.
+
 ## 1.0.0
 
 - Released the VT projekty website: Restaurace Kulturní dům and Kavárna Gól in Střílky, Koupaliště Koryčany, and accommodation in Střílky and Lískovec, prerendered in Czech at the unprefixed URLs and English under `/en`.
