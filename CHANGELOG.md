@@ -4,6 +4,10 @@ All notable changes to `vtprojekty-cz` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 1.0.3
+
+- Updated `@trebired/frontend` to 29.5.2. A removed frame is logged as one short line, such as `Removed tbf-unverified iframe#id "Title"`, instead of the whole element.
+
 ## 1.0.2
 
 - Updated `@trebired/frontend` to 29.5.1. A frame a script appends to the page while it is still loading is now removed as well, not only hidden.
