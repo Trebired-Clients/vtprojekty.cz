@@ -11,7 +11,7 @@ import { interactions, runtime, semantics } from "./theme";
 import { breakpoints } from "./typography";
 
 export default defineConfig({
-    forVersion: "29.5.0",
+    forVersion: "29.6.0",
     containers,
     links,
     assets: {
@@ -58,12 +58,14 @@ export default defineConfig({
             family: "Manrope",
             subsets: ["latin", "latin-ext"],
             weights: [400, 500, 600, 700, 800],
+            preload: [400, 700],
           },
           urbanist: {
             package: "urbanist",
             family: "Urbanist",
             subsets: ["latin", "latin-ext"],
             weights: [800],
+            preload: true,
           },
         },
         sans: '"Manrope", "Helvetica Neue", Arial, sans-serif',
