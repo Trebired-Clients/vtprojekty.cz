@@ -4,6 +4,10 @@ All notable changes to `vtprojekty-cz` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 1.0.7
+
+- Moved to `@trebired/frontend` 29.8.0.
+
 ## 1.0.6
 
 - Updated `@trebired/frontend` to 29.7.0. Phones and tablets scroll without a live blur behind text, without blocks sliding in, and with page heights that no longer follow the address bar.
